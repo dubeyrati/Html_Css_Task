@@ -1,0 +1,68 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 40%;
+}
+.ulclass{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:#85e0e0;
+  }
+  
+  .first a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .first a.active {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .first a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+  .a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c2d6d6;
+  }
+  
+  .second {
+    float: left;
+    border-right:1px solid blue;
+  }
+  
+  .second:last-child {
+    border-right: none;
+  }
+  
+  .second a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .second a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  .second a.active {
+    background-color: grey;
+    color: white;
+  }
+  
